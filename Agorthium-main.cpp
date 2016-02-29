@@ -45,7 +45,7 @@ int main () {     //int numArgs, char* arg[]
 	ifstream inputFile;
 	ofstream outputFile;
 	
-	inputFile.open("testing.txt");
+	inputFile.open("URL.txt");
 	
 	/*if (inputFile.fail()){
 		cerr << "Error" << endl;
@@ -60,7 +60,7 @@ int main () {     //int numArgs, char* arg[]
 	}
 	
 	inputFile.close();
-	inputFile.open("testing.txt");
+	inputFile.open("URL.txt");
 	
 	string servedURI[numberOfLines][3];
 	int lineCount = 0;
